@@ -15,5 +15,5 @@ public class TypyProste {
         boolean falsz = false;
 
     //pojedynczy znak
-        char letter = 'A';
+        char letter = 'A';          //umieszczone w pojedynczym cudzysłowiu. Podwójne używane są do danych typu String.
 }
