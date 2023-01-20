@@ -18,11 +18,17 @@ public class PracaDomowa1 {
         System.out.println("Podaj proszę drugą liczbę.");
         int secondNumber = scanner.nextInt();
 
-        int mnożenie = firstNumber * secondNumber;
-        int dodawanie = firstNumber + secondNumber;
+        int addition = firstNumber + secondNumber;
+        int subtraction = firstNumber - secondNumber;
+        int multiplication = firstNumber * secondNumber;
+        int division = firstNumber / secondNumber;
+        int mod = firstNumber % secondNumber;
 
-        System.out.println("Wynik mnożenia to: " + mnożenie);
-        System.out.println("Wynik dodawania to: " + dodawanie);
+        System.out.println("Wynik dodawania to: " + addition);
+        System.out.println("Wynik odejmowania to: " + subtraction);
+        System.out.println("Wynik mnożenia to: " + multiplication);
+        System.out.println("Wynik dzielenia to: " + division);
+        System.out.println("Wynik modulo to: " + mod);
         System.out.println("Well done " + name + "!");
 
     }
