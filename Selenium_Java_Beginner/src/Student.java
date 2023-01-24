@@ -6,6 +6,7 @@ public class Student {
     public String adresEmail;
     public int numerTelefonu;
     public int numerIndeksu;
+    public static String nazwaUczelni = "KUL";
 
     public void przedstawSie() {
         System.out.println("Nazywam się " + imie + " " + nazwisko);
@@ -22,4 +23,10 @@ public class Student {
     public void podajNrTelefonu() {
         System.out.println("Mój numer telefonu to: " + numerTelefonu);
     }
+
+    public static void infoUczelnia() {
+        System.out.println("Witamy na " + nazwaUczelni + "!!!");
+    }
+
+    //Wewnątrz metody statycznej, możemy się odnosić do pól statycznych, lub wywoływać inne metody, które również są statytczne.
 }

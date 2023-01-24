@@ -7,6 +7,9 @@ public class PracaDomowa4 {
 
     public static void main(String[] args) {
 
+        String uczelnia = Student.nazwaUczelni;
+        Student.infoUczelnia();
+
         Student student1 = new Student();
         student1.imie = "Justin";
         student1.nazwisko = "Jefferson";
@@ -14,6 +17,7 @@ public class PracaDomowa4 {
         student1.numerTelefonu = 789568789;
         student1.adresEmail = "justin.jefferson@vikings.com";
         student1.numerIndeksu = 123456789;
+        String uczelniaStudenta1 = student1.nazwaUczelni;
 
         Student student2 = new Student();
         student2.imie = "Kirk";
@@ -22,6 +26,7 @@ public class PracaDomowa4 {
         student2.numerTelefonu = 865478319;
         student2.adresEmail = "kirk.cousins@vikings.com";
         student2.numerIndeksu = 987654321;
+        String uczelniaStudenta2 = student2.nazwaUczelni;
 
         Student student3 = new Student();
         student3.imie = "Dalvin";
@@ -30,6 +35,8 @@ public class PracaDomowa4 {
         student3.numerTelefonu = 953147894;
         student3.adresEmail = "dalvin.cook@vikings.com";
         student3.numerIndeksu = 987321654;
+        String uczelniaStudenta3 = student3.nazwaUczelni;
+
 
 
         Student[] students = new Student[3];
@@ -42,6 +49,7 @@ public class PracaDomowa4 {
             students[i].zalogujSie();
             students[i].podajNrTelefonu();
             students[i].podajNrIndeksu();
+            System.out.println("Mam na imię " + students[i].imie + " a moja uczelnia to " + students[i].nazwaUczelni);
         }
     }
 }
