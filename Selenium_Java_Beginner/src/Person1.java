@@ -11,6 +11,11 @@ public class Person1 {
         this.age = age;
     }
 
+    public void sayHello() {
+        System.out.println("Hello, my name is " + firstName + " " + lastName);
+        System.out.println("I am " + age);
+    }
+
     public void eat() {
         System.out.println("I like eating!");
     }

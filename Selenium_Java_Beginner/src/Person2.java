@@ -13,4 +13,8 @@ public class Person2 extends Person1 {
         walk();
         System.out.println("I play NFL for a living for the " + nflClub + ".");
     }
+
+    public void eat () {
+        System.out.println("I like eating healthy food.");
+    }
 }
