@@ -8,12 +8,12 @@ public class Child extends Parent {
 
     public void testIdentify() {
         System.out.println(first);
-        System.out.println(second);
+        /*System.out.println(second);*/
         System.out.println(third);
-        System.out.println(fourth);
+        /*System.out.println(fourth);*/
         firstMethod();
-        secondMethod();
+        /*secondMethod();*/
         thirdMethod();
-        fourthMethod();
+        /*fourthMethod();*/
     }
 }

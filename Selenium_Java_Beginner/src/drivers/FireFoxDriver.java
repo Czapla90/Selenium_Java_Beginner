@@ -1,4 +1,8 @@
-public class FireFoxDriver implements WebDriver{
+package drivers;
+
+import drivers.WebDriver;
+
+public class FireFoxDriver implements WebDriver {
     @Override
     public void get() {
         System.out.println("Otwieramy przeglądarkę Mozilla FireFox.");
